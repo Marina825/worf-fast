@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200&display=swap");
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer-content {
+    min-height: 950px;
+  }
+  .footer-content-contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 550px;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  .footer-content-top {
+    display: flex;
+    background: #343434;
+    text-align: center;
+    min-height: 310px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .footer-top-header {
+    color: #ffffff;
+    max-width: 250px;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+  .block-images-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .images-footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .footer-description {
+    display: flex;
+    flex-direction: column;
+    min-height: 160px;
+    justify-content: space-between;
+  }
+  .head-footer-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .href-footer-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #a5a5a5;
+  }
+  .contact-footer {
+    display: flex;
+    align-items: center;
+  }
+  .contact-footer-data {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .dark-theme {
+    background-color: #181818
+    ;
+  }
+
+  .light-theme {
+    background-color: #ede9e9;
+  }
+
+  .dark-text {
+    color: #fff;
+  }
+
+  .light-text {
+    color: black;
+  }
+  .href-text-footer {
+    color: #a5a5a5;
+  }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+
+  .footer-content {
+    min-height: 950px;
+  }
+  .footer-content-contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 530px;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  .footer-content-top {
+    display: flex;
+    background: #343434;
+    text-align: center;
+    min-height: 290px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .footer-top-header {
+    color: #ffffff;
+    max-width: 250px;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+  .block-images-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .images-footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .footer-description {
+    display: flex;
+    flex-direction: column;
+    min-height: 160px;
+    justify-content: space-between;
+  }
+  .head-footer-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .href-footer-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #a5a5a5;
+  }
+  .contact-footer {
+    display: flex;
+    align-items: center;
+  }
+  .contact-footer-data {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .dark-theme {
+    background-color: #181818
+    ;
+  }
+
+  .light-theme {
+    background-color: #ede9e9;
+  }
+
+  .dark-text {
+    color: #fff;
+  }
+
+  .light-text {
+    color: #000000;
+  }
+  .href-text-footer {
+    color: #a5a5a5;
+  }
+}

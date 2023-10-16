@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200&display=swap");
+// .op {
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   min-width: 320px;
+//   align-content: center;
+//   align-items: center;
+//   min-height: 800px;
+// }
+
+// .io {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   min-height: 530px;
+// }
+
+.first-image-section,
+.image-section {
+  max-width: 100%; /* Изображения не будут больше своих контейнеров */
+  height: auto; /* Для сохранения соотношения сторон */
+}
+
+// .first-image-section {
+//   max-width: 100%;
+//   height: auto; /* Для сохранения соотношения сторон */
+// }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 650px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .image-section {
+    max-width: 170px;
+    min-width: 130px;
+  }
+  .images-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 480px;
+    min-height: 550px;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+  .section-content-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .first-image-wrapper {
+    width: 100%; /* Задайте 100% ширины контейнера .op */
+  }
+  .image-section {
+    width: 50%; /* Измените ширину других изображений на 50% */
+  }
+  .block-images-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 320px;
+    align-content: center;
+    align-items: center;
+    min-height: 880px;
+    justify-content: space-around;
+  }
+  .flex-images-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 530px;
+    justify-content: space-between;
+  }
+  .section-content-middle {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .image-logo-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 310px;
+    justify-content: space-around;
+  }
+  .logo-section {
+    width: 26%;
+  }
+  .block-comment {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 940px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .content-block-comment {
+    min-height: 210px;
+    display: flex;
+    padding: 24px 20px;
+    border-radius: 10px;
+    border: 1px solid #565656;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .section-content-bottom {
+    padding-top: 30px;
+  }
+  .name-user-comment {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #02e4c0;
+  }
+  .profession-user-comment {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .userDataComment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  .comment-user-info {
+    display: flex;
+  }
+  .text-comment-section {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .footer-description-contact {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .icon-network-contact {
+    padding-right: 20px;
+    
+  }
+  #twitterImage:hover{
+    content: url("../image/twitter-blue.svg");
+  }
+  #facebookImage:hover{
+    content: url("../image/facebook-blue.svg");
+  }
+  #linkedinImage:hover{  
+    content: url("../image/linkedin-blue.svg");
+
+  }
+  .dark-theme {
+    background-color: #181818;
+  }
+
+  .light-theme {
+    background-color: #ede9e9;
+  }
+
+  .dark-text {
+    color: #fff;
+  }
+
+  .light-text {
+    color: #000000;
+  }
+  .dark-backgrount-comment {
+    background-color: #181818;
+  }
+  .light-backgrount-comment {
+    background-color: #fff6f6;
+  }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 650px;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .first-image-section {
+    max-width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .image-section {
+    max-width: 170px;
+    min-width: 130px;
+  }
+  .images-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 480px;
+    min-height: 550px;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+  .section-content-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .section-content-middle {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .image-logo-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: space-around;
+  }
+  .logo-section {
+    width: 26%;
+  }
+  .block-comment {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 940px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .content-block-comment {
+    min-height: 210px;
+    display: flex;
+    padding: 24px 20px;
+    border-radius: 10px;
+    border: 1px solid #565656;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .section-content-bottom {
+    padding-top: 30px;
+  }
+  .name-user-comment {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #02e4c0;
+  }
+  .profession-user-comment {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .userDataComment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  .comment-user-info {
+    display: flex;
+  }
+  .text-comment-section {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .footer-description-contact {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .icon-network-contact {
+    padding-right: 20px;
+  }
+  .dark-theme {
+    background-color: #181818;
+  }
+
+  .light-theme {
+    background-color: #ede9e9;
+  }
+
+  .dark-text {
+    color: #fff;
+  }
+
+  .light-text {
+    color: #000000;
+  }
+  .dark-backgrount-comment {
+    background-color: #181818;
+  }
+  .light-backgrount-comment {
+    background-color: #fff6f6;
+  }
+}

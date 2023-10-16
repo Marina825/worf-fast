@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+.loading-container {
+  text-align: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .App {
+    background-color: black;
+  }
+
+  
+}
