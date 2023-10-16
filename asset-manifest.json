@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/worf-fast/static/css/main.8d2db43d.css",
-    "main.js": "/worf-fast/static/js/main.5115f641.js",
+    "main.css": "/worf-fast/static/css/main.77285363.css",
+    "main.js": "/worf-fast/static/js/main.5f0ad26f.js",
     "static/media/screens.svg": "/worf-fast/static/media/screens.b821c0a178f38ac5f1ee99e79edb61f3.svg",
     "static/media/Image2.svg": "/worf-fast/static/media/Image2.19d1f5c912de30c3cd893ffa85f61773.svg",
     "static/media/Image7.svg": "/worf-fast/static/media/Image7.33010c8733848c6ff6564709019a46db.svg",
@@ -19,29 +19,32 @@
     "static/media/avatar1.svg": "/worf-fast/static/media/avatar1.ce3980c3193cd382b7462d94c8b76046.svg",
     "static/media/avatar.svg": "/worf-fast/static/media/avatar.0c0bba4b9a55f387dda4f0bc651698b6.svg",
     "static/media/Image1.svg": "/worf-fast/static/media/Image1.c140869fd89b456635c7f30be99df115.svg",
-    "static/media/icon-sun.gif": "/worf-fast/static/media/icon-sun.f3e86ed5f78c8d1ea012.gif",
     "static/media/logo-dark.svg": "/worf-fast/static/media/logo-dark.775585d52fb1b06fad802acfc8e1547a.svg",
     "static/media/logos_android-icon.svg": "/worf-fast/static/media/logos_android-icon.ea8df8abde363e69425c13191fe2409e.svg",
     "static/media/logos_airbnb.svg": "/worf-fast/static/media/logos_airbnb.4679abf57f3dcd491e36c8d9a2a8230e.svg",
     "static/media/logos_ibm.svg": "/worf-fast/static/media/logos_ibm.6b7dcc6c0079afc272dd3356c19622b5.svg",
     "static/media/logos_apple-app-store.svg": "/worf-fast/static/media/logos_apple-app-store.83a580cba447e5553a2cc9a91f85c00d.svg",
     "static/media/logos.svg": "/worf-fast/static/media/logos.0c4d4e46215205c3aa814a4044f57834.svg",
+    "static/media/icons-twitter.svg": "/worf-fast/static/media/icons-twitter.7d40408958ae043db73d2ef2b2578d14.svg",
+    "static/media/twitter-blue.svg": "/worf-fast/static/media/twitter-blue.88eb14ef0fe296f3c374.svg",
+    "static/media/icons-linkedin.svg": "/worf-fast/static/media/icons-linkedin.d50998f68b5897ee485e8034bae2b0e8.svg",
+    "static/media/linkedin-blue.svg": "/worf-fast/static/media/linkedin-blue.36dc541fe201bc826cc1.svg",
     "static/media/logos_basecamp.svg": "/worf-fast/static/media/logos_basecamp.2257d3b8f3e4d286cbe4b8db11d34f09.svg",
-    "static/media/twitter.svg": "/worf-fast/static/media/twitter.379e1c7a29677496e4343ffdf3bf80d2.svg",
     "static/media/iconCutlery.svg": "/worf-fast/static/media/iconCutlery.66021b72c57a57f9d2f5bbd34cae1638.svg",
-    "static/media/linkedin.svg": "/worf-fast/static/media/linkedin.43e831febbc14512eee9067c255482ef.svg",
     "static/media/iconInfinity.svg": "/worf-fast/static/media/iconInfinity.6afd6a9dc97226a2274e61c65ac442c2.svg",
+    "static/media/facebook-blue.svg": "/worf-fast/static/media/facebook-blue.2fa5bd773ec314139f66.svg",
+    "static/media/icons-facebook.svg": "/worf-fast/static/media/icons-facebook.4a0b4bce9e2f724af4bd5881f84b3560.svg",
     "static/media/geodata.svg": "/worf-fast/static/media/geodata.8dc1583909755b82ef951c0288a59c55.svg",
     "static/media/iconUFO.svg": "/worf-fast/static/media/iconUFO.d41e7121b811609829c4867d0bbcfc80.svg",
     "static/media/phone.svg": "/worf-fast/static/media/phone.fd5ad40b9b38b18a983982a55f48870a.svg",
-    "static/media/facebook.svg": "/worf-fast/static/media/facebook.f7d9710d348473e3ad26295cb83d1093.svg",
     "index.html": "/worf-fast/index.html",
+    "static/media/cross-menu.svg": "/worf-fast/static/media/cross-menu.f9fbfce5454ba20702d0388268c8a947.svg",
     "static/media/Vector.svg": "/worf-fast/static/media/Vector.f61b1eb0c93bb225cff0dd4dd876ea23.svg",
-    "main.8d2db43d.css.map": "/worf-fast/static/css/main.8d2db43d.css.map",
-    "main.5115f641.js.map": "/worf-fast/static/js/main.5115f641.js.map"
+    "main.77285363.css.map": "/worf-fast/static/css/main.77285363.css.map",
+    "main.5f0ad26f.js.map": "/worf-fast/static/js/main.5f0ad26f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d2db43d.css",
-    "static/js/main.5115f641.js"
+    "static/css/main.77285363.css",
+    "static/js/main.5f0ad26f.js"
   ]
 }
