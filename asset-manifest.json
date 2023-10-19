@@ -1,24 +1,36 @@
 {
   "files": {
-    "main.css": "/worf-fast/static/css/main.77285363.css",
-    "main.js": "/worf-fast/static/js/main.5f0ad26f.js",
+    "main.css": "/worf-fast/static/css/main.c51aa294.css",
+    "main.js": "/worf-fast/static/js/main.6a28d3d7.js",
     "static/media/screens.svg": "/worf-fast/static/media/screens.b821c0a178f38ac5f1ee99e79edb61f3.svg",
+    "static/media/img-content-header.svg": "/worf-fast/static/media/img-content-header.dbb50189ba31039348f4f343de935b13.svg",
+    "static/media/img-header-desctop.svg": "/worf-fast/static/media/img-header-desctop.dbb50189ba31039348f4f343de935b13.svg",
     "static/media/Image2.svg": "/worf-fast/static/media/Image2.19d1f5c912de30c3cd893ffa85f61773.svg",
+    "static/media/image5.1.svg": "/worf-fast/static/media/image5.1.d0b0f464a9319eb3448e0902874c1c16.svg",
     "static/media/Image7.svg": "/worf-fast/static/media/Image7.33010c8733848c6ff6564709019a46db.svg",
+    "static/media/image4.1.svg": "/worf-fast/static/media/image4.1.8414e782dd3a5ee3b0cd69c2153b410b.svg",
     "static/media/Image5.svg": "/worf-fast/static/media/Image5.1b427f74ecf64606c603d742392bc76a.svg",
+    "static/media/image2.1.svg": "/worf-fast/static/media/image2.1.2677ed31f4d6ef77b4d5f04f6cdb99b9.svg",
     "static/media/imgMacbook.svg": "/worf-fast/static/media/imgMacbook.cf77a7e823d9a5d6fee34090f2f2d13a.svg",
     "static/media/img-main.svg": "/worf-fast/static/media/img-main.9b3e73053b742a0b5787a63771022b6a.svg",
     "static/media/Image3.svg": "/worf-fast/static/media/Image3.e7eab4c1abdc0131ec60ff57b15ea4eb.svg",
+    "static/media/image3.1.svg": "/worf-fast/static/media/image3.1.fc26389e5fe633c40f9f5159ffcae2e7.svg",
     "static/media/boards.svg": "/worf-fast/static/media/boards.1fdb3214f74e05345818df1271f37f88.svg",
     "static/media/map-footer.svg": "/worf-fast/static/media/map-footer.b0828a1f857b019e82c20efb30d5ffc3.svg",
+    "static/media/mapsFooter.svg": "/worf-fast/static/media/mapsFooter.1aa529c5cba5453a1f70ec8792056929.svg",
+    "static/media/mapFooter-tablet.svg": "/worf-fast/static/media/mapFooter-tablet.29068520a4e1310497324e2deeff5ff1.svg",
     "static/media/Image4.svg": "/worf-fast/static/media/Image4.bac732c51f63df0c88f2848c4b714f0d.svg",
+    "static/media/image1.1.svg": "/worf-fast/static/media/image1.1.a55df0c7301c04a5ab4ef7acf47785ad.svg",
     "static/media/Image6.svg": "/worf-fast/static/media/Image6.778be7662ee41fcc7f9d02234df68519.svg",
+    "static/media/image7.1.svg": "/worf-fast/static/media/image7.1.3b9663f6b75b5001ddb6bb097cfedf4b.svg",
+    "static/media/image-footer2.svg": "/worf-fast/static/media/image-footer2.48116e6f8c9b4cd71ffb3d0c65b1d393.svg",
     "static/media/imageFooter.svg": "/worf-fast/static/media/imageFooter.6d81fa32c673d29586cfe3e580211941.svg",
     "static/media/avatar2.svg": "/worf-fast/static/media/avatar2.2a864d2c5cdf9361d12611a2267f7d7d.svg",
     "static/media/avatar3.svg": "/worf-fast/static/media/avatar3.f12bfb70594bf43f89da3529777fee1e.svg",
     "static/media/avatar1.svg": "/worf-fast/static/media/avatar1.ce3980c3193cd382b7462d94c8b76046.svg",
     "static/media/avatar.svg": "/worf-fast/static/media/avatar.0c0bba4b9a55f387dda4f0bc651698b6.svg",
     "static/media/Image1.svg": "/worf-fast/static/media/Image1.c140869fd89b456635c7f30be99df115.svg",
+    "static/media/image6.1.svg": "/worf-fast/static/media/image6.1.0fe82dda74b6ac0bab2c805bae9c6a9c.svg",
     "static/media/logo-dark.svg": "/worf-fast/static/media/logo-dark.775585d52fb1b06fad802acfc8e1547a.svg",
     "static/media/logos_android-icon.svg": "/worf-fast/static/media/logos_android-icon.ea8df8abde363e69425c13191fe2409e.svg",
     "static/media/logos_airbnb.svg": "/worf-fast/static/media/logos_airbnb.4679abf57f3dcd491e36c8d9a2a8230e.svg",
@@ -40,11 +52,11 @@
     "index.html": "/worf-fast/index.html",
     "static/media/cross-menu.svg": "/worf-fast/static/media/cross-menu.f9fbfce5454ba20702d0388268c8a947.svg",
     "static/media/Vector.svg": "/worf-fast/static/media/Vector.f61b1eb0c93bb225cff0dd4dd876ea23.svg",
-    "main.77285363.css.map": "/worf-fast/static/css/main.77285363.css.map",
-    "main.5f0ad26f.js.map": "/worf-fast/static/js/main.5f0ad26f.js.map"
+    "main.c51aa294.css.map": "/worf-fast/static/css/main.c51aa294.css.map",
+    "main.6a28d3d7.js.map": "/worf-fast/static/js/main.6a28d3d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.77285363.css",
-    "static/js/main.5f0ad26f.js"
+    "static/css/main.c51aa294.css",
+    "static/js/main.6a28d3d7.js"
   ]
 }
