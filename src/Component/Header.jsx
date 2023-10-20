@@ -3,14 +3,13 @@ import logoHeaderDark from "../image/logo-dark.svg";
 import iconMenu from "../image/Vector.svg";
 import imageContentHeaderDark from "../image/screens.svg";
 import BurgerMenu from "./BurgerMenu";
-
+import imgContentHeader from "../image/img-content-header.svg";
+import imgHeaderDesctop from "../image/img-header-desctop.svg";
+import { useTheme } from "./ThemeContext";
+import { Link } from "react-router-dom";
 function Header() {
+  const { isDarkTheme, toggleTheme } = useTheme();
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
-
-  const toggleTheme = () => {
-    setIsDarkTheme(!isDarkTheme);
-  };
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -38,6 +37,23 @@ function Header() {
           className="header-list-li"
         />
         <div className="flex-header-menu">
+          <div className="menu-header">
+            <ul className="link-header">
+              <Link to="/" className="link-dropdown-header-menu-list">
+                Home
+              </Link>
+              <Link to="/product" className="link-dropdown-header-menu-list">
+                Product
+              </Link>
+              <Link to="/aboutUs" className="link-dropdown-header-menu-list">
+                About
+              </Link>
+              <Link to="/contact" className="link-dropdown-header-menu-list">
+                Contact
+              </Link>
+              <button className="button-header">Learn More</button>
+            </ul>
+          </div>
           <label className="theme-switch">
             <input
               type="checkbox"
@@ -71,6 +87,7 @@ function Header() {
               </div>
             </div>
           </label>
+
           <button onClick={toggleMenu} className="switch-button">
             {" "}
             <img
@@ -83,6 +100,7 @@ function Header() {
         </div>
       </div>
       <BurgerMenu isOpen={isMenuOpen} onClose={() => setMenuOpen(false)} />
+
       <div className="content-header">
         <div className="flex-headline-header">
           <div
@@ -116,8 +134,8 @@ function Header() {
           <button
             className={
               isDarkTheme
-                ? "button-header dark-text"
-                : "button-header light-text"
+                ? "button-header second-button-header dark-text"
+                : "button-header second-button-header light-text"
             }
           >
             Learn More
@@ -127,7 +145,17 @@ function Header() {
         <img
           src={imageContentHeaderDark}
           alt="img-content-header"
-          className="imageContentHeader"
+          className="imageContentHeader imageContentHeader-mobile"
+        />
+        <img
+          src={imgContentHeader}
+          alt="img-content-header"
+          className="imageContentHeader imageContentHeader-tablet"
+        />
+        <img
+          src={imgHeaderDesctop}
+          alt="img-content-header"
+          className="imageContentHeader imageContentHeader-desctop"
         />
       </div>
     </div>

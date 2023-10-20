@@ -1,46 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200&display=swap");
 
 @media (min-width: 320px) and (max-width: 480px) {
-.BurgerMenu-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 350px;
-  background-color: black;
-  display: flex;
-  // align-items: center;
-  justify-content: center;
-  z-index: 999999;
-  .BurgerMenu-content {
-    width: 100%;
-
-    ul {
-      flex-direction: column;
-    list-style: none;
-    min-height: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-      li {
-        color: red;
-      }
-
-      .link-dropdown-header-menu-list {
-        text-decoration: none;
-
-        font-family: "Inter", sans-serif;
-        font-size: 25px;
-        letter-spacing: 0.2px;
-        text-align: center;
-        color: #FFFFFF;
-      }
-    }
-  }
-}
-}
-@media (min-width: 481px) and (max-width: 992px) {
-
   .BurgerMenu-container {
     position: fixed;
     top: 0;
@@ -49,38 +9,110 @@
     min-height: 350px;
     background-color: black;
     display: flex;
-    // align-items: center;
     justify-content: center;
     z-index: 999999;
     .BurgerMenu-content {
       width: 100%;
-  
+
       ul {
         flex-direction: column;
-      list-style: none;
-      min-height: 400px;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
+        list-style: none;
+        min-height: 420px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         li {
           color: red;
         }
-  
+
         .link-dropdown-header-menu-list {
           text-decoration: none;
-  
+
           font-family: "Inter", sans-serif;
           font-size: 25px;
           letter-spacing: 0.2px;
           text-align: center;
-          color: #FFFFFF;
+          color: #ffffff;
         }
       }
     }
   }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+  .BurgerMenu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    z-index: 999999;
+    .BurgerMenu-content {
+      width: 100%;
 
+      ul {
+        flex-direction: column;
+        list-style: none;
+        min-height: 420px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        li {
+          color: red;
+        }
 
+        .link-dropdown-header-menu-list {
+          text-decoration: none;
 
+          font-family: "Inter", sans-serif;
+          font-size: 25px;
+          letter-spacing: 0.2px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
 
+@media (min-width: 993px) {
+  .BurgerMenu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    z-index: 999999;
+  }
 
+  .BurgerMenu-content {
+    width: 100%;
+
+    ul {
+      flex-direction: column;
+      list-style: none;
+      min-height: 420px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    li {
+      color: red;
+    }
+
+    .link-dropdown-header-menu-list {
+      text-decoration: none;
+      font-family: "Inter", sans-serif;
+      font-size: 25px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
 }

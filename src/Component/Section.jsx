@@ -1,11 +1,18 @@
 import React from "react";
 import Image1 from "../image/Image1.svg";
+import Images1 from "../image/image1.1.svg";
 import Image2 from "../image/Image2.svg";
+import Images2 from "../image/image2.1.svg";
 import Image3 from "../image/Image3.svg";
+import Images3 from "../image/image3.1.svg";
 import Image4 from "../image/Image4.svg";
+import Images4 from "../image/image4.1.svg";
 import Image5 from "../image/Image5.svg";
+import Images5 from "../image/image5.1.svg";
 import Image6 from "../image/Image6.svg";
+import Images6 from "../image/image6.1.svg";
 import Image7 from "../image/Image7.svg";
+import Images7 from "../image/image7.1.svg";
 import logoApiary from "../image/logos.svg";
 import logoAndroid from "../image/logos_android-icon.svg";
 import logoBasecamp from "../image/logos_basecamp.svg";
@@ -16,7 +23,10 @@ import imageAvatar from "../image/avatar.svg";
 import imageAvatar1 from "../image/avatar1.svg";
 import imageAvatar2 from "../image/avatar2.svg";
 import imageAvatar3 from "../image/avatar3.svg";
-const Section = ({ isDarkTheme }) => {
+import { useTheme } from "./ThemeContext";
+
+const Section = () => {
+  const { isDarkTheme } = useTheme();
   return (
     <div
       className={
@@ -26,13 +36,14 @@ const Section = ({ isDarkTheme }) => {
       }
     >
       <div className="section-content-top">
-        <h1
-          className={
-            isDarkTheme ? "headline-main dark-text" : "headline-main light-text"
-          }
-        >
-          Gallery
-        </h1>
+        <button className="button-animation" data-text="Awesome">
+          <span className={isDarkTheme ? "dark-text" : " light-text"}>
+            &nbsp;Gallery&nbsp;
+          </span>
+          <span aria-hidden="true" className="hover-text-animation">
+            &nbsp;Gallery&nbsp;
+          </span>
+        </button>
         <p
           className={
             isDarkTheme
@@ -45,39 +56,107 @@ const Section = ({ isDarkTheme }) => {
         </p>
       </div>
 
-      <div className="block-images-section">
+      <div className="block-images-section hidden-block-images-mobile">
         <img
           src={Image1}
           alt="images-section"
           className="first-image-section"
         />
         <div className="flex-images-section">
-        <img src={Image6} alt="images-section" className="image-section"></img>
-        <img src={Image2} alt="images-section" className="image-section"></img>
-        <img src={Image7} alt="images-section" className="image-section"></img>
-        <img src={Image3} alt="images-section" className="image-section"></img>
-        <img src={Image4} alt="images-section" className="image-section"></img>
-        <img src={Image5} alt="images-section" className="image-section"></img>
-      </div></div>
-      <div className="section-content-middle">
-        <h1
-          className={
-            isDarkTheme ? "headline-main dark-text" : "headline-main light-text"
-          }
-        >
-          Partners
-        </h1>
-        <p
-          className={
-            isDarkTheme
-              ? "text-content-header dark-text"
-              : "text-content-header light-text"
-          }
-        >
-          We focus on ergonomics and meeting you where you work. It's only a
-          keystroke away.
-        </p>
+          <img
+            src={Image6}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Image2}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Image7}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Image3}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Image4}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Image5}
+            alt="images-section"
+            className="image-section"
+          ></img>
+        </div>
+      </div>
 
+      <div className="block-images-section hidden-block-images-tablet">
+        <img
+          src={Images6}
+          alt="images-section"
+          className="first-image-section"
+        />
+        <div className="flex-images-section">
+          <img
+            src={Images7}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Images5}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Images4}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Images3}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Images1}
+            alt="images-section"
+            className="image-section"
+          ></img>
+          <img
+            src={Images2}
+            alt="images-section"
+            className="image-section"
+          ></img>
+        </div>
+      </div>
+
+      <div className="section-content-middle">
+        <div className="section-content-middle-top">
+          <button className="button-animation" data-text="Awesome">
+            <span className={isDarkTheme ? "dark-text" : " light-text"}>
+              &nbsp;Partners&nbsp;
+            </span>
+            <span aria-hidden="true" className="hover-text-animation">
+              &nbsp;Partners&nbsp;
+            </span>
+          </button>
+          <p
+            className={
+              isDarkTheme
+                ? "text-content-header dark-text"
+                : "text-content-header light-text"
+            }
+          >
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+          </p>
+        </div>
         <div className="image-logo-section">
           <img
             src={logoAppleAppStore}
@@ -108,13 +187,14 @@ const Section = ({ isDarkTheme }) => {
         </div>
       </div>
       <div className="section-content-bottom">
-        <h1
-          className={
-            isDarkTheme ? "headline-main dark-text" : "headline-main light-text"
-          }
-        >
-          Testimonials
-        </h1>
+        <button className="button-animation" data-text="Awesome">
+          <span className={isDarkTheme ? "dark-text" : " light-text"}>
+            &nbsp;Testimonials&nbsp;
+          </span>
+          <span aria-hidden="true" className="hover-text-animation">
+            &nbsp;Testimonials&nbsp;
+          </span>
+        </button>
         <div className="block-comment">
           <div
             className={

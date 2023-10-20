@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logoHeaderDark from "../image/logo-dark.svg";
 import crossMenu from "../image/cross-menu.svg";
-import "../style/BurgerMenu.scss";
+
+import "../styles"; 
 const BurgerMenu = ({ isOpen, onClose }) => {
   return (
     <>
@@ -16,22 +17,24 @@ const BurgerMenu = ({ isOpen, onClose }) => {
                 className="header-list-li"
               />
               <button onClick={onClose} className="switch-button">
-
-                <img src={crossMenu} alt="cross-menu" style={{width: "50px"}}></img>
+                <img
+                  src={crossMenu}
+                  alt="cross-menu"
+                  style={{ width: "50px" }}
+                />
               </button>
             </div>
             <ul>
-              <Link to="/#bottom" className="link-dropdown-header-menu-list">
+              <Link to="/" className="link-dropdown-header-menu-list">
                 Home
               </Link>
-
-              <Link to="/aboutUs" className="link-dropdown-header-menu-list">
+              <Link to="/product" className="link-dropdown-header-menu-list">
                 Product
               </Link>
-              <Link to="/products" className="link-dropdown-header-menu-list">
+              <Link to="/aboutUs" className="link-dropdown-header-menu-list">
                 About
               </Link>
-              <Link to="/partners" className="link-dropdown-header-menu-list">
+              <Link to="/contact" className="link-dropdown-header-menu-list">
                 Contact
               </Link>
               <button className="button-header">Learn More</button>

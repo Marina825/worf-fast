@@ -15,11 +15,10 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-
 }
 body {
   overflow-x: hidden;
-  }
+}
 
 h1 {
   font-size: 48px;
@@ -36,11 +35,10 @@ a {
 }
 
 @mixin noselect {
-  -webkit-touch-callout: none; 
-  -webkit-user-select: none; 
-  -khtml-user-select: none; 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none; 
-  user-select: none; 
-                              
+  -ms-user-select: none;
+  user-select: none;
 }

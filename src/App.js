@@ -1,17 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import "./style/reset.scss";
-import "./style/normalize.scss";
-import "./style/style-App.scss";
-import "./style/style-Header.scss";
-import "./style/style-Main.scss";
-import "./style/style-Section.scss";
-import "./style/theme-switch.scss";
 import Appendix from "./Component/Appendix";
-import { About } from "./Component/About";
-import "./style/style-Footer.scss";
+import "./styles";
+import { ThemeProvider } from "./Component/ThemeContext";
 import { DotSpinner } from "@uiball/loaders";
-
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,13 +23,14 @@ function App() {
           <DotSpinner size={40} speed={0.9} color="#181818" />
         </div>
       ) : (
-        <Router>
-          <Routes>
-            <Route path="/home" element={<Appendix />} />
-            <Route index element={<Appendix />} />
-            <Route path="about" element={<About />} />
-          </Routes>
-        </Router>
+        <ThemeProvider>
+          <Router>
+            <Routes>
+              <Route path="/home" element={<Appendix />} />
+              <Route index element={<Appendix />} />
+            </Routes>
+          </Router>
+        </ThemeProvider>
       )}
     </div>
   );
