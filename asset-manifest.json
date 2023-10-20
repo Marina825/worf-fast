@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/worf-fast/static/css/main.c51aa294.css",
-    "main.js": "/worf-fast/static/js/main.6a28d3d7.js",
+    "main.css": "/worf-fast/static/css/main.97674edc.css",
+    "main.js": "/worf-fast/static/js/main.2de8a38f.js",
     "static/media/screens.svg": "/worf-fast/static/media/screens.b821c0a178f38ac5f1ee99e79edb61f3.svg",
     "static/media/img-content-header.svg": "/worf-fast/static/media/img-content-header.dbb50189ba31039348f4f343de935b13.svg",
     "static/media/img-header-desctop.svg": "/worf-fast/static/media/img-header-desctop.dbb50189ba31039348f4f343de935b13.svg",
@@ -52,11 +52,11 @@
     "index.html": "/worf-fast/index.html",
     "static/media/cross-menu.svg": "/worf-fast/static/media/cross-menu.f9fbfce5454ba20702d0388268c8a947.svg",
     "static/media/Vector.svg": "/worf-fast/static/media/Vector.f61b1eb0c93bb225cff0dd4dd876ea23.svg",
-    "main.c51aa294.css.map": "/worf-fast/static/css/main.c51aa294.css.map",
-    "main.6a28d3d7.js.map": "/worf-fast/static/js/main.6a28d3d7.js.map"
+    "main.97674edc.css.map": "/worf-fast/static/css/main.97674edc.css.map",
+    "main.2de8a38f.js.map": "/worf-fast/static/js/main.2de8a38f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51aa294.css",
-    "static/js/main.6a28d3d7.js"
+    "static/css/main.97674edc.css",
+    "static/js/main.2de8a38f.js"
   ]
 }
